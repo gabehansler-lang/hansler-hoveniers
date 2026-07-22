@@ -1,511 +1,144 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hansler Hovenier | Vakmanschap in Groen</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-scroll-behavior:smooth;
-}
-
-body{
-font-family:Poppins,sans-serif;
-background:#fafafa;
-color:#333;
-}
-
-header{
-
-position:fixed;
-top:0;
-width:100%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 8%;
-background:rgba(255,255,255,.96);
-backdrop-filter:blur(10px);
-box-shadow:0 2px 15px rgba(0,0,0,.08);
-z-index:999;
-
-}
-  
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-}
-
-}
-
-.logo {
-
-}
-.logo{
-
-font-size:34px;
-font-weight:700;
-color:#355E3B;
-
-}
-
-.logo span{
-
-color:#8A6A45;
-
-}
-
-nav a{
-
-margin-left:30px;
-text-decoration:none;
-color:#555;
-font-weight:500;
-transition:.3s;
-
-}
-
-nav a:hover{
-
-color:#355E3B;
-
-}
-
-.hero{
-
-height:100vh;
-
-background:
-linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-url("Def.png") center center/cover;
-
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-color:white;
-
-}
-
-.hero h1{
-
-font-size:72px;
-margin-bottom:20px;
-
-}
-
-.hero p{
-
-font-size:22px;
-margin-bottom:40px;
-
-}
-
-.btn{
-
-display:inline-block;
-
-padding:18px 40px;
-
-background:#355E3B;
-
-color:white;
-
-text-decoration:none;
-
-border-radius:40px;
-
-font-weight:600;
-
-transition:.3s;
-
-margin:10px;
-
-}
-
-.btn:hover{
-
-background:#8A6A45;
-
-}
-
-section{
-
-padding:100px 10%;
-
-}
-
-.title{
-
-font-size:42px;
-text-align:center;
-color:#355E3B;
-margin-bottom:60px;
-
-}
-
-.grid{
-
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:40px;
-
-}
-
-.card{
-
-background:white;
-
-padding:40px;
-
-border-radius:15px;
-
-box-shadow:0 10px 30px rgba(0,0,0,.08);
-
-transition:.3s;
-
-}
-
-.card:hover{
-
-transform:translateY(-10px);
-
-}
-
-.card h3{
-
-margin-bottom:15px;
-color:#355E3B;
-
-}
-
-.projects{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-
-gap:25px;
-
-}
-
-.project{
-
-height:280px;
-background:#ddd;
-border-radius:15px;
-overflow:hidden;
-position:relative;
-
-}
-
-.project img{
-
-width:100%;
-height:100%;
-object-fit:cover;
-transition:.4s;
-
-}
-
-.project:hover img{
-
-transform:scale(1.1);
-
-}
-
-.overlay{
-
-position:absolute;
-bottom:0;
-left:0;
-width:100%;
-padding:20px;
-background:linear-gradient(transparent,rgba(0,0,0,.75));
-color:white;
-
-}
-
-.contact{
-
-background:#355E3B;
-color:white;
-text-align:center;
-
-}
-
-.contact h2{
-
-font-size:42px;
-
-margin-bottom:25px;
-
-}
-
-.contact p{
-
-margin:12px 0;
-
-}
-
-footer{
-
-background:#28482E;
-color:white;
-padding:25px;
-text-align:center;
-
-}
-
-.whatsapp{
-
-position:fixed;
-right:30px;
-bottom:30px;
-
-width:65px;
-height:65px;
-
-background:#25D366;
-
-border-radius:50%;
-
-display:flex;
-justify-content:center;
-align-items:center;
-
-font-size:34px;
-
-color:white;
-
-text-decoration:none;
-
-box-shadow:0 8px 20px rgba(0,0,0,.3);
-
-}
-
-@media(max-width:900px){
-
-.hero h1{
-
-font-size:48px;
-
-}
-
-nav{
-
-display:none;
-
-}
-
-}
-
-</style>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hansler Hovenier | Hovenier in Westland en omstreken</title>
+  <meta name="description" content="Hansler Hovenier voor tuinaanleg, tuinonderhoud, bestrating en houtwerk in Westland en omstreken. Persoonlijk contact en een verzorgde oplevering.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Hansler Hovenier">
+  <meta property="og:description" content="Vakmanschap voor tuin en buitenruimte in Westland en omstreken.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-
-<header>
-
-<div class="logo">
-Hansler <span>Hovenier</span>
-</div>
-
-<nav>
-
-<a href="#">Home</a>
-<a href="#">Over ons</a>
-<a href="#">Diensten</a>
-<a href="#">Projecten</a>
-<a href="#">Contact</a>
-
-</nav>
-
+<a class="skip-link" href="#main">Naar inhoud</a>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html">Hansler <span>Hovenier</span></a>
+    <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Hoofdnavigatie">
+      <a href="#diensten">Diensten</a>
+      <a href="#over">Over ons</a>
+      <a href="#projecten">Projecten</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-primary" href="tel:+31643489975">Bel direct</a>
+    </nav>
+  </div>
 </header>
 
+<main id="main">
 <section class="hero">
-
-<div>
-
-<h1>Uw specialist in groen</h1>
-
-<p>
-Tuinaanleg • Onderhoud • Bestrating • Schuttingen
-</p>
-
-<a href="#contact" class="btn">
-Offerte aanvragen
-</a>
-
-<a href="tel:+31643489975" class="btn">
-Bel direct
-</a>
-  
-</div>
-  
+  <div class="container hero-grid">
+    <div>
+      <div class="kicker">Hovenier in Westland en omstreken</div>
+      <h1>Een tuin die klopt. Van ontwerp tot onderhoud.</h1>
+      <p>Hansler Hovenier helpt particuliere en zakelijke klanten met tuinaanleg, onderhoud, bestrating, schuttingen en ander buitenwerk.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:info@hanslerhoveniers.nl?subject=Offerteaanvraag">Vraag een offerte aan</a>
+        <a class="btn btn-secondary" href="#projecten">Bekijk projecten</a>
+      </div>
+    </div>
+    <aside class="hero-card">
+      <strong>Persoonlijk en vakkundig</strong>
+      <ul class="trust-list">
+        <li>Eén vast aanspreekpunt</li>
+        <li>Duidelijke afspraken vooraf</li>
+        <li>Netjes en zorgvuldig opgeleverd</li>
+        <li>Werkgebied: Westland en omstreken</li>
+      </ul>
+    </aside>
+  </div>
 </section>
 
-<section>
-
-<h2 class="title">
-Onze diensten
-</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<h3>🌿 Tuinaanleg</h3>
-
-<p>
-Van ontwerp tot complete aanleg.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🌳 Onderhoud</h3>
-
-<p>
-Uw tuin ieder seizoen perfect onderhouden.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🧱 Bestrating</h3>
-
-<p>
-Terrassen, opritten en sierbestrating.
-</p>
-
-</div>
-
-</div>
-
+<section class="section section-soft" id="diensten">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker" style="color:var(--green)">Diensten</div>
+      <h2>Alles voor een verzorgde buitenruimte</h2>
+      <p>Van een complete nieuwe tuin tot periodiek onderhoud: werkzaamheden worden afgestemd op de ruimte, wensen en het beschikbare budget.</p>
+    </div>
+    <div class="services">
+      <article class="card"><div class="card-icon">🌿</div><h3>Tuinaanleg</h3><p>Een nieuwe tuin, renovatie of praktische herindeling met aandacht voor uitstraling en gebruik.</p></article>
+      <article class="card"><div class="card-icon">✂️</div><h3>Tuinonderhoud</h3><p>Snoeien, verzorgen, opruimen en seizoensonderhoud voor een tuin die netjes blijft.</p></article>
+      <article class="card"><div class="card-icon">🧱</div><h3>Bestrating</h3><p>Terrassen, paden en opritten met een degelijke onderbouw en strakke afwerking.</p></article>
+      <article class="card"><div class="card-icon">🪵</div><h3>Schuttingen & houtwerk</h3><p>Schuttingen, afscheidingen en praktische houten elementen voor privacy en sfeer.</p></article>
+      <article class="card"><div class="card-icon">🌱</div><h3>Beplanting</h3><p>Een passend beplantingsplan met aandacht voor seizoen, ligging en onderhoud.</p></article>
+      <article class="card"><div class="card-icon">🏡</div><h3>Buitenprojecten</h3><p>Maatwerkoplossingen voor overkappingen, borders, gazons en andere tuinwensen.</p></article>
+    </div>
+  </div>
 </section>
 
-<section>
-
-<h2 class="title">
-Recente Projecten
-</h2>
-
-<div class="projects">
-
-<div class="project">
-
-<img src="OSDL2829.JPG">
-
-<div class="overlay">
-
-Complete Tuinaanleg
-
-</div>
-
-</div>
-
-<div class="project">
-
-<img src="tuin 1.jpg">
-
-<div class="overlay">
-
-Moderne Achtertuin
-
-</div>
-
-</div>
-
-<div class="project">
-
-<img src="tuin 2.jpg">
-
-<div class="overlay">
-
-Luxe Bestrating
-
-</div>
-
-</div>
-
-</div>
-
+<section class="section" id="over">
+  <div class="container about-grid">
+    <div class="image-panel" role="img" aria-label="Groene tuin met beplanting"></div>
+    <div>
+      <div class="kicker" style="color:var(--green)">Hansler Hovenier</div>
+      <div class="section-head"><h2>Vakwerk met korte lijnen</h2></div>
+      <p>Als eenmanszaak heb je rechtstreeks contact met degene die het werk bespreekt en uitvoert. Dat maakt de communicatie duidelijk en de aanpak persoonlijk.</p>
+      <div class="checks">
+        <div class="check">✓ Persoonlijk contact</div>
+        <div class="check">✓ Heldere offerte</div>
+        <div class="check">✓ Netjes werken</div>
+        <div class="check">✓ Regionaal actief</div>
+      </div>
+      <a class="btn btn-primary" href="mailto:info@hanslerhoveniers.nl">Bespreek jouw tuin</a>
+    </div>
+  </div>
 </section>
 
-<section id="contact" class="contact">
-
-<h2>
-
-Neem vrijblijvend contact op
-
-</h2>
-
-<p><strong>Gabe Hansler</strong></p>
-
-<p>Eigenaar</p>
-
-<p>
-
-📞
-<a href="tel:+31643489975" style="color:white;text-decoration:none;">
-06 43 48 99 75
-</a>
-
-</p>
-
-<p>
-
-🌐
-
-<a href="https://hanslerhoveniers.nl" style="color:white;text-decoration:none;">
-
-HanslerHoveniers.nl
-
-</a>
-
-</p>
-
-<p>
-
-📍 Monster Westland
-
-</a>
-
-</p>
-
-<p>
-
-<p>@ <a href="mailto:info@hanslerhoveniers.nl">info@hanslerhoveniers.nl</a></p>
-  
-</p>
-
+<section class="section section-soft" id="projecten">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker" style="color:var(--green)">Projecten</div>
+      <h2>Inspiratie uit recent tuinwerk</h2>
+      <p>Vervang deze voorbeeldafbeeldingen later door je eigen projectfoto’s. Gebruik bij herkenbare woningen of personen alleen foto’s waarvoor je toestemming hebt.</p>
+    </div>
+    <div class="projects">
+      <article class="project"><div class="project-info"><h3>Complete tuinaanleg</h3><span>Indeling, groen en bestrating</span></div></article>
+      <article class="project"><div class="project-info"><h3>Terras en erfafscheiding</h3><span>Praktisch en onderhoudsvriendelijk</span></div></article>
+      <article class="project"><div class="project-info"><h3>Groene stadstuin</h3><span>Beplanting met structuur</span></div></article>
+    </div>
+  </div>
 </section>
 
-<footer>
+<section class="section">
+  <div class="container">
+    <div class="cta">
+      <div><h2>Plannen voor je tuin?</h2><p>Neem contact op voor een vrijblijvende kennismaking en een duidelijke offerte.</p></div>
+      <a class="btn btn-primary" href="tel:+31643489975">06 43 48 99 75</a>
+    </div>
+  </div>
+</section>
 
-© 2026 Hansler Hovenier
+<section class="section" id="contact">
+  <div class="container contact-grid">
+    <div>
+      <div class="section-head"><div class="kicker" style="color:var(--green)">Contact</div><h2>Neem rechtstreeks contact op</h2><p>Geen contactformulier en geen onnodige tracking. Je kunt bellen, mailen of zelf WhatsApp openen.</p></div>
+    </div>
+    <div class="contact-box">
+      <div class="contact-line"><strong>Telefoon</strong><br><a href="tel:+31643489975">06 43 48 99 75</a></div>
+      <div class="contact-line"><strong>E-mail</strong><br><a href="mailto:info@hanslerhoveniers.nl">info@hanslerhoveniers.nl</a></div>
+      <div class="contact-line"><strong>Vestiging</strong><br>Magnolia 29, Monster</div>
+      <div class="contact-line"><strong>Werkgebied</strong><br>Westland en omstreken</div>
+      <a class="btn btn-primary" href="https://wa.me/31643489975?text=Hallo%20Hansler%20Hovenier%2C%20ik%20heb%20een%20vraag." target="_blank" rel="noopener noreferrer">Open WhatsApp</a>
+    </div>
+  </div>
+</section>
+</main>
 
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h3>Hansler Hovenier</h3><p>Vakmanschap voor tuin en buitenruimte in Westland en omstreken.</p><p>KvK 42092823<br>btw-id NL005494155B77</p></div>
+      <div><h3>Contact</h3><div class="footer-links"><a href="tel:+31643489975">06 43 48 99 75</a><a href="mailto:info@hanslerhoveniers.nl">info@hanslerhoveniers.nl</a><span>[VUL VOLLEDIG ADRES IN]</span></div></div>
+      <div><h3>Juridisch</h3><div class="footer-links"><a href="privacy.html">Privacyverklaring</a><a href="voorwaarden.html">Algemene voorwaarden</a><a href="cookies.html">Cookieverklaring</a><a href="disclaimer.html">Disclaimer</a></div></div>
+    </div>
+    <div class="footer-bottom">© <span id="year"></span> Hansler Hovenier. Alle rechten voorbehouden.</div>
+  </div>
 </footer>
 
-<a class="whatsapp" href="https://wa.me/31643489975">
-
-💬
-
-</a>
-
+<a class="whatsapp" href="https://wa.me/31643489975?text=Hallo%20Hansler%20Hovenier%2C%20ik%20heb%20een%20vraag." target="_blank" rel="noopener noreferrer" aria-label="Open WhatsApp">WhatsApp</a>
+<script src="assets/js/main.js"></script>
 </body>
-
 </html>
