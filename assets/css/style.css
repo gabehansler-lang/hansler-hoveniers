@@ -64,9 +64,9 @@ a{color:inherit}
 .check{background:#eef5ef;border-radius:14px;padding:14px;font-weight:700}
 .projects{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .project{min-height:340px;border-radius:var(--radius);overflow:hidden;position:relative;background:#ddd}
-.project:nth-child(1){background:url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=85') center/cover}
-.project:nth-child(2){background:url('https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1000&q=85') center/cover}
-.project:nth-child(3){background:url('https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1000&q=85') center/cover}
+.project:nth-child(1){background:url('OSDL2829.JPG') center/cover}
+.project:nth-child(2){background:url('tuin 1.jpg') center/cover}
+.project:nth-child(3){background:url('IMG_3597.JPG') center/cover}
 .project:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,rgba(9,29,18,.9))}
 .project-info{position:absolute;left:24px;right:24px;bottom:20px;color:white;z-index:2}
 .project-info h3{margin:0}
