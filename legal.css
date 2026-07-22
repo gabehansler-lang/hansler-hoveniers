@@ -1,0 +1,67 @@
+
+:root{
+  --green:#146c3a;
+  --green-dark:#0d4e2a;
+  --cream:#f7f5ef;
+  --text:#1f2923;
+  --muted:#667069;
+  --border:#dfe5e0;
+  --white:#fff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  color:var(--text);
+  background:var(--cream);
+  line-height:1.65;
+}
+.site-header{
+  position:sticky;top:0;z-index:10;
+  background:rgba(255,255,255,.96);
+  border-bottom:1px solid var(--border);
+}
+.header-inner,.legal-wrap,.footer-inner{
+  width:min(1100px,calc(100% - 32px));
+  margin:auto;
+}
+.header-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  min-height:72px;gap:24px;
+}
+.brand{font-weight:800;color:var(--text);text-decoration:none;font-size:1.2rem}
+.back-link{color:var(--green);font-weight:700;text-decoration:none}
+.legal-wrap{
+  background:var(--white);
+  margin:40px auto;
+  padding:clamp(24px,5vw,64px);
+  border-radius:18px;
+  box-shadow:0 12px 40px rgba(20,60,35,.08);
+}
+.eyebrow{text-transform:uppercase;letter-spacing:.08em;color:var(--green);font-weight:800;font-size:.82rem}
+h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.1;margin:.25em 0}
+h2{margin-top:2.2em;font-size:1.45rem}
+h3{margin-top:1.5em}
+a{color:var(--green-dark)}
+.notice{
+  padding:16px 18px;border-left:4px solid var(--green);
+  background:#eef7f1;border-radius:8px;margin:24px 0;
+}
+.warning{
+  padding:16px 18px;border-left:4px solid #a96b00;
+  background:#fff6df;border-radius:8px;margin:24px 0;
+}
+table{width:100%;border-collapse:collapse;margin:20px 0}
+th,td{border:1px solid var(--border);padding:12px;text-align:left;vertical-align:top}
+th{background:#f1f5f2}
+.site-footer{background:var(--green-dark);color:white;padding:32px 0}
+.site-footer a{color:white}
+.footer-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px}
+.small{font-size:.92rem;color:var(--muted)}
+.site-footer .small{color:#dce8df}
+@media(max-width:700px){
+  .header-inner{min-height:62px}
+  .legal-wrap{margin:18px auto;padding:22px}
+  table{display:block;overflow-x:auto}
+}
