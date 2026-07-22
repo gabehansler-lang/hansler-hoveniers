@@ -34,7 +34,7 @@ a{color:inherit}
 .hero{min-height:680px;display:grid;align-items:center;background:
  radial-gradient(circle at 80% 30%,rgba(52,117,77,.34),transparent 27%),
  linear-gradient(125deg,rgba(18,48,31,.94),rgba(31,82,52,.78)),
- url('https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=85') center/cover;
+ url('Def.png') center/cover;
  color:white}
 .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:54px;align-items:center;padding:90px 0}
 .kicker{text-transform:uppercase;letter-spacing:.14em;font-weight:900;font-size:.78rem;color:#d6eadc}
