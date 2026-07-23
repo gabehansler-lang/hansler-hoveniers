@@ -31,11 +31,17 @@ a{color:inherit}
 .btn:hover{transform:translateY(-2px)}
 .btn-primary{background:var(--green);color:#fff;box-shadow:0 10px 24px rgba(36,92,59,.22)}
 .btn-secondary{border-color:var(--green);color:var(--green);background:#fff}
-.hero{min-height:680px;display:grid;align-items:center;background:
- radial-gradient(circle at 80% 30%,rgba(52,117,77,.34),transparent 27%),
- linear-gradient(125deg,rgba(18,48,31,.94),rgba(31,82,52,.78)),
- url('Def.png') center/cover;
- color:white}
+.hero {
+  min-height: 680px;
+  display: grid;
+  align-items: center;
+  background-color: white;
+  background-image: url('../../Def.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: #143c27;
+}
 .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:54px;align-items:center;padding:90px 0}
 .kicker{text-transform:uppercase;letter-spacing:.14em;font-weight:900;font-size:.78rem;color:#d6eadc}
 .hero h1{font-size:clamp(2.8rem,7vw,5.6rem);line-height:.98;letter-spacing:-.055em;margin:.25em 0}
