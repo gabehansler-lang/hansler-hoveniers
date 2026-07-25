@@ -53,8 +53,8 @@ a{color:inherit}
   z-index: -3;
   background-image: url("../../Def.png");
   background-repeat: no-repeat;
- background-position: 60.1% 42%;
-background-size: auto 100%;
+background-position: 66% 46%;
+background-size: auto 82%;
 }
 
 /* Donkere laag voor leesbaarheid */
@@ -76,13 +76,13 @@ background-size: auto 100%;
 .hero__container {
   position: relative;
   z-index: 1;
-  width: min(1360px, calc(100% - 72px));
+  width: min(1500px, calc(100% - 60px));
 padding: 78px 0;
   display: grid;
- grid-template-columns: minmax(480px, 600px) minmax(300px, 360px);
+ grid-template-columns: 560px 340px;
   align-items: center;
   justify-content: space-between;
-gap: clamp(80px, 16vw, 300px);
+gap: 260px;
 }
 
 .hero__content {
@@ -180,7 +180,9 @@ gap: clamp(80px, 16vw, 300px);
   background-color: var(--cream);
 }
 
-.hero__benefits {
+.hero__benefits{
+    margin-left:60px;
+}
   padding: 34px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 18px;
