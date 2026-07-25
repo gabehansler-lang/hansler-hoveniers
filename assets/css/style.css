@@ -82,7 +82,7 @@ padding: 78px 0;
  grid-template-columns: 560px 340px;
   align-items: center;
   justify-content: space-between;
-gap: 520px;
+gap: 230px;
 }
 
 .hero__content {
