@@ -28,47 +28,59 @@
 </header>
 
 <main id="main">
-<section class="hero">
-  <div class="container hero-grid">
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__background" aria-hidden="true"></div>
+  <div class="hero__overlay" aria-hidden="true"></div>
 
-    <div class="hero-content">
-      <div class="kicker">Hovenier in Westland en omstreken</div>
-
-      <h1>
-        Een tuin die klopt.
-        Van ontwerp tot onderhoud.
-      </h1>
-
-      <p class="hero-text">
-        Hansler Hovenier helpt particulieren en zakelijke klanten met
-        tuinaanleg, onderhoud, bestrating, schuttingen en ander buitenwerk.
+  <div class="container hero__container">
+    <div class="hero__content">
+      <p class="hero__eyebrow">
+        Hovenier in Westland en omstreken
       </p>
 
-      <div class="hero-actions">
+      <h1 class="hero__title" id="hero-title">
+        Een tuin die klopt.
+        <span>Van ontwerp tot onderhoud.</span>
+      </h1>
+
+      <p class="hero__description">
+        Hansler Hovenier helpt particuliere en zakelijke klanten met
+        tuinaanleg, tuinonderhoud, bestrating, schuttingen en ander
+        buitenwerk.
+      </p>
+
+      <div class="hero__actions">
         <a
-          class="btn btn-primary"
+          class="hero__button hero__button--primary"
           href="mailto:info@hanslerhoveniers.nl?subject=Offerteaanvraag"
         >
           Vraag een offerte aan
         </a>
 
-        <a class="btn btn-secondary" href="#projecten">
+        <a
+          class="hero__button hero__button--secondary"
+          href="#projecten"
+        >
           Bekijk projecten
         </a>
       </div>
     </div>
 
-    <aside class="hero-card">
-      <strong>Persoonlijk en vakkundig</strong>
+    <aside
+      class="hero__benefits"
+      aria-label="Voordelen van Hansler Hovenier"
+    >
+      <h2 class="hero__benefits-title">
+        Persoonlijk en vakkundig
+      </h2>
 
-      <ul class="trust-list">
+      <ul class="hero__benefits-list">
         <li>Eén vast aanspreekpunt</li>
         <li>Duidelijke afspraken vooraf</li>
         <li>Netjes en zorgvuldig opgeleverd</li>
         <li>Werkgebied: Westland en omstreken</li>
       </ul>
     </aside>
-
   </div>
 </section>
 
