@@ -325,10 +325,11 @@ table{width:100%;border-collapse:collapse;margin:20px 0}th,td{border:1px solid v
     max-width:760px;
   }
 
-  .hero__benefits{
+ .hero__benefits{
     width:100%;
     max-width:620px;
-  }
+    margin:0 auto;
+}
 
   .about-grid,
   .contact-grid{
