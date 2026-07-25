@@ -237,7 +237,7 @@ gap: 260px;
 .about-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:62px;align-items:center}
 .image-panel{min-height:520px;border-radius:var(--radius);background:
  linear-gradient(rgba(17,46,29,.15),rgba(17,46,29,.15)),
- url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1200&q=85') center/cover;
+ url('../../IMG_3585.JPG') center/cover;
  box-shadow:var(--shadow)}
 .checks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:24px 0}
 .check{background:#eef5ef;border-radius:14px;padding:14px;font-weight:700}
