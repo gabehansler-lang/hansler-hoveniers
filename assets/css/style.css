@@ -426,3 +426,23 @@ table{width:100%;border-collapse:collapse;margin:20px 0}th,td{border:1px solid v
   margin-right: 6px;
   vertical-align: -4px;
 }
+a[href*="instagram.com"] .social-icon {
+  color: #E1306C;
+}
+
+a[href*="linkedin.com"] .social-icon {
+  color: #0A66C2;
+}
+
+a[href*="wa.me"] .social-icon {
+  color: #25D366;
+  background: #fff;
+  border-radius: 50%;
+  padding: 3px;
+  box-sizing: content-box;
+  flex-shrink: 0;
+}
+
+.contact-box .btn {
+  white-space: nowrap;
+}
