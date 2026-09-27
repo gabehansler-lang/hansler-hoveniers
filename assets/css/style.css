@@ -23,6 +23,34 @@ a{color:inherit}
 .nav-wrap{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .logo{text-decoration:none;font-weight:900;letter-spacing:-.03em;font-size:1.25rem;color:var(--dark)}
 .logo span{color:var(--green)}
+.logo {
+  position: relative;
+  padding-left: 62px;
+  white-space: nowrap;
+}
+
+.logo::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 52px;
+  height: 52px;
+  background: url("../../favicon.png.png") center / contain no-repeat;
+}
+
+@media (max-width: 620px) {
+  .logo {
+    padding-left: 43px;
+    font-size: 1rem;
+  }
+
+  .logo::before {
+    width: 36px;
+    height: 36px;
+  }
+}
 .nav{display:flex;align-items:center;gap:24px}
 .nav a{text-decoration:none;font-weight:700;font-size:.94rem}
 .nav a:hover{color:var(--green)}
