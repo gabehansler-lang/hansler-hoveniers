@@ -242,17 +242,21 @@ gap: 230px;
 .check{background:#eef5ef;border-radius:14px;padding:14px;font-weight:700}
 .projects{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .project{min-height:340px;border-radius:var(--radius);overflow:hidden;position:relative;background:#ddd}
-.project:nth-child(1){
+.project:nth-child(5){
     background:url('../../OSDL2829.JPG') center/cover;
 }
-.project:nth-child(2){
+.project:nth-child(6){
     background:url('../../IMG_3597.JPG') center/cover;
 }
 
-.project:nth-child(3){
+.project:nth-child(7){
     background:url('../../tuin 1.jpg') center/cover;
 }
-.project:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,rgba(9,29,18,.9))}
+
+.project:nth-child(1) { background: url('../../aca55053-d7df-46de-b30c-f160fe7c496c.jpg') center/cover; }
+.project:nth-child(2) { background: url('../../fc67d62e-9641-45a0-af0d-8f800fb8c37d.jpg') center/cover; }
+.project:nth-child(3) { background: url('../../c5a1f11e-8dd3-4f86-b2d3-9f847fc9b948.jpg') center/cover; }
+.project:nth-child(4) { background: url('../../c37ffef7-9ee0-48d6-8843-0d1277a6b500.jpg') center/cover; }project:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,rgba(9,29,18,.9))}
 .project-info{position:absolute;left:24px;right:24px;bottom:20px;color:white;z-index:2}
 .project-info h3{margin:0}
 .cta{background:var(--dark);color:#fff;border-radius:32px;padding:48px;display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}
