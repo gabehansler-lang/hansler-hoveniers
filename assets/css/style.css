@@ -446,3 +446,58 @@ a[href*="wa.me"] .social-icon {
 .contact-box .btn {
   white-space: nowrap;
 }
+.projects.is-slider {
+  display: block;
+  position: relative;
+}
+
+.projects.is-slider .project {
+  display: none;
+  min-height: 480px;
+}
+
+.projects.is-slider .project.active {
+  display: block;
+}
+
+.slide-arrow {
+  position: absolute;
+  top: 215px;
+  z-index: 3;
+  width: 46px;
+  height: 46px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .92);
+  color: #173a28;
+  font-size: 32px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.slide-prev { left: 16px; }
+.slide-next { right: 16px; }
+
+.slide-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.slide-dot {
+  width: 11px;
+  height: 11px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #b7c8bb;
+  cursor: pointer;
+}
+
+.slide-dot.active { background: #245c3b; }
+
+@media (max-width: 620px) {
+  .projects.is-slider .project { min-height: 340px; }
+  .slide-arrow { top: 147px; }
+}
