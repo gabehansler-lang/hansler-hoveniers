@@ -505,3 +505,9 @@ a[href*="wa.me"] .social-icon {
   .projects.is-slider .project { min-height: 340px; }
   .slide-arrow { top: 147px; }
 }
+.projects.is-slider .project {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #203527;
+}
